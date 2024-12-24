@@ -5,43 +5,43 @@
   let questions = [
   {
     question: "Who is this Cutie?",
-    picture: "./images/Ariane.jpeg", // Updated path
+    picture: "./game/images/Ariane.jpeg", // Updated path
     options: ["Lauren Watson", "Anna Oakes", "Laura Kukkonen", "Yixiao Ren", "Carla Mandiola", "Natalia Belizario", "Ariane Luthi"],
     answer: "Ariane Luthi",
   },
   {
     question: "Who is this Auntie?",
-    picture: "./images/Lauren.png", // Updated path
+    picture: "./game/images/Lauren.png", // Updated path
     options: ["Laura Kukkonen", "Carla Mandiola", "Ariane Luthi", "Yixiao Ren", "Anna Oakes", "Lauren Watson", "Natalia Belizario"],
     answer: "Lauren Watson",
   },
   {
     question: "Can you guess who she is?",
-    picture: "./images/Natalia.png", // Updated path
+    picture: "./game/images/Natalia.png", // Updated path
     options: ["Yixiao Ren", "Natalia Belizario", "Ariane Luthi", "Anna Oakes", "Laura Kukkonen", "Carla Mandiola", "Lauren Watson"],
     answer: "Natalia Belizario",
   },
   {
     question: "You have seen this face before",
-    picture: "./images/Carla.png", // Updated path
+    picture: "./game/images/Carla.png", // Updated path
     options: ["Carla Mandiola", "Yixiao Ren", "Anna Oakes", "Lauren Watson", "Natalia Belizario", "Laura Kukkonen", "Ariane Luthi"],
     answer: "Carla Mandiola",
   },
   {
     question: "Oh, who is she?",
-    picture: "./images/Yixiao.png", // Updated path
+    picture: "./game/images/Yixiao.png", // Updated path
     options: ["Natalia Belizario", "Lauren Watson", "Ariane Luthi", "Yixiao Ren", "Anna Oakes", "Carla Mandiola", "Laura Kukkonen"],
     answer: "Yixiao Ren",
   },
   {
     question: "Who is this little kid?",
-    picture: "./images/Laura.png", // Updated path
+    picture: "./game/images/Laura.png", // Updated path
     options: ["Ariane Luthi", "Yixiao Ren", "Anna Oakes", "Carla Mandiola", "Laura Kukkonen", "Natalia Belizario", "Lauren Watson"],
     answer: "Laura Kukkonen",
   },
   {
     question: "Same energy, who is she?",
-    picture: "./images/Anna.jpg", // Updated path
+    picture: "./game/images/Anna.jpg", // Updated path
     options: ["Yixiao Ren", "Laura Kukkonen", "Natalia Belizario", "Lauren Watson", "Ariane Luthi", "Anna Oakes", "Carla Mandiola"],
     answer: "Anna Oakes",
   },
