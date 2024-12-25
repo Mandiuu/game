@@ -5,13 +5,13 @@
   let questions = [
   {
     question: "Who is this Cutie?",
-    picture: "images/Ariane.jpeg", // Updated path
+    picture: "/game/images/Ariane.jpeg", // Updated path
     options: ["Lauren Watson", "Anna Oakes", "Laura Kukkonen", "Yixiao Ren", "Carla Mandiola", "Natalia Belizario", "Ariane Luthi"],
     answer: "Ariane Luthi",
   },
   {
     question: "Who is this Auntie?",
-    picture: "images/Lauren.png", // Updated path
+    picture: "/game/images/Lauren.png", // Updated path
     options: ["Laura Kukkonen", "Carla Mandiola", "Ariane Luthi", "Yixiao Ren", "Anna Oakes", "Lauren Watson", "Natalia Belizario"],
     answer: "Lauren Watson",
   },
