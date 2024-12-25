@@ -14,11 +14,12 @@
     "svelte": "^4.2.19"
   },
   "devDependencies": {
-    "rollup": "^3.29.5",
-    "rollup-plugin-svelte": "^7.2.2",
-    "@rollup/plugin-node-resolve": "^15.3.0",
     "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
     "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.29.5",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-svelte": "^7.2.2",
     "sirv-cli": "^3.0.0"
   },
   "author": "",
