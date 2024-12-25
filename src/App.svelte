@@ -11,7 +11,7 @@
   },
   {
     question: "Who is this Auntie?",
-    picture: "/game/images/Lauren.png", // Updated path
+    picture: "/images/Lauren.png", // Updated path
     options: ["Laura Kukkonen", "Carla Mandiola", "Ariane Luthi", "Yixiao Ren", "Anna Oakes", "Lauren Watson", "Natalia Belizario"],
     answer: "Lauren Watson",
   },
