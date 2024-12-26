@@ -7,28 +7,31 @@ import css from 'rollup-plugin-css-only';
 
 const production = !process.env.ROLLUP_WATCH;
 
+// GitHub Pages uses the repository name as the base path, so set this correctly.
+const basePath = production ? '/game/' : '/';
+
 export default {
-  input: 'src/main.js', // Entry point for your app
+  input: 'src/main.js',
   output: {
     sourcemap: true,
-    format: 'iife', // Immediately Invoked Function Expression for browsers
+    format: 'iife',
     name: 'app',
     file: 'public/build/bundle.js',
   },
   plugins: [
     svelte({
       compilerOptions: {
-        dev: !production, // Enable dev mode in non-production builds
+        dev: !production,
       },
     }),
-    css({ output: 'bundle.css' }), // Extract CSS into a separate file
+    css({ output: 'bundle.css' }),
     resolve({
       browser: true,
       dedupe: ['svelte'],
     }),
     commonjs(),
     !production && livereload('public'),
-    production && terser(), // Minify code in production
+    production && terser(),
   ],
   watch: {
     clearScreen: false,
